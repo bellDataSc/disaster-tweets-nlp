@@ -1,17 +1,16 @@
 # Disaster Tweets Classification - NLP Pipeline
 
+Production-ready ML pipeline for real-time disaster detection in social media
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Competition-blue.svg)](https://www.kaggle.com/c/nlp-getting-started)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![Streamlit](https://img.shields.io/badge/streamlit-1.28.0-red.svg)]
 [![Status](https://img.shields.io/badge/Status-Active-green.svg)]()
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)]()
 
-Production-ready ML pipeline for real-time disaster detection in social media
 
-![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
-![Streamlit](https://img.shields.io/badge/streamlit-1.28.0-red.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Business Problem
 
