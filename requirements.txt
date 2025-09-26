@@ -1,4 +1,11 @@
 ```python
+
+python
+streamlit
+pandas
+numpy
+plotly
+
 # Core ML & Data Processing
 pandas==2.1.4
 numpy==1.26.2
