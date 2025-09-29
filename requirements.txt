@@ -2,18 +2,12 @@ streamlit
 pandas
 python-dotenv
 
-``
-
-numpy
-scikit-learn
-nltk
-spacy
-
-``
-
-plotly
-
-``
-
-requests
-tweepy
+#add
+numpy==1.26.2
+scikit-learn==1.3.2
+nltk==3.8.1
+spacy==3.7.2
+#add
+plotly==5.17.0
+requests==2.31.0
+tweepy==4.14.0
