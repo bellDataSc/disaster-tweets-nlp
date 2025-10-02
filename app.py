@@ -1,15 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.ensemble import RandomForestClassifier
-import pickle
-import plotly.express as px
-import plotly.graph_objects as go
-from datetime import datetime
 import requests
-import json
-
+import re
+from datetime import datetime
 
 st.set_page_config(
     page_title="Disaster Tweets Classifier",
