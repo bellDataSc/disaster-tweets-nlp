@@ -1,1 +1,116 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
 
+
+[project]
+name = "disaster-tweets-nlp"
+version = "0.1.0"
+description = "Machine learning and NLP pipeline for disaster tweet classification."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+
+dependencies = [
+    "joblib",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pydantic>=2",
+    "python-dotenv",
+    "pyyaml",
+    "scikit-learn",
+]
+
+
+[project.optional-dependencies]
+nlp = [
+    "nltk",
+    "vaderSentiment",
+]
+
+transformers = [
+    "datasets",
+    "evaluate",
+    "keras",
+    "tensorflow",
+    "transformers",
+]
+
+app = [
+    "streamlit",
+]
+
+dev = [
+    "ipykernel",
+    "jupyterlab",
+    "mypy",
+    "pandas-stubs",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "types-PyYAML",
+]
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+    "--cov=disaster_tweets",
+    "--cov-report=term-missing",
+]
+
+
+[tool.coverage.run]
+branch = true
+source = ["src/disaster_tweets"]
+
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+fail_under = 70
+
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests", "scripts", "app"]
+
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "I",
+    "B",
+    "UP",
+]
+ignore = []
+
+
+[tool.ruff.lint.isort]
+known-first-party = ["disaster_tweets"]
+
+
+[tool.mypy]
+python_version = "3.11"
+files = ["src", "scripts", "app"]
+check_untyped_defs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unused_ignores = true
