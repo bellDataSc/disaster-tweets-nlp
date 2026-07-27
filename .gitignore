@@ -1,1 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and quality
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local caches
+.cache/
+nltk_data/
+
+# Raw and generated datasets
+data/raw/*
+!data/raw/.gitkeep
+
+data/interim/*
+!data/interim/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models and generated artifacts
+artifacts/*
+!artifacts/README.md
+
+# Generated reports
+reports/figures/*
+!reports/figures/.gitkeep
+
+reports/metrics/*
+!reports/metrics/.gitkeep
+
+# Kaggle credentials
+kaggle.json
+
+# TensorFlow
+checkpoint
+*.h5
+*.keras
+events.out.tfevents.*
