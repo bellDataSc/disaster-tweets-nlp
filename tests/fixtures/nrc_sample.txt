@@ -1,0 +1,8 @@
+abandon	fear	1
+abandon	joy	0
+abandon	negative	1
+abandon	positive	0
+disaster	fear	1
+disaster	sadness	1
+disaster	negative	1
+disaster	positive	0

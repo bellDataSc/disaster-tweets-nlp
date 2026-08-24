@@ -1,0 +1,7 @@
+; Negative words sample fixture
+; used for testing header skipping
+
+abandon
+abandoned
+disaster
+horrible

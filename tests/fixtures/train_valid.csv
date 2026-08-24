@@ -1,0 +1,11 @@
+id,keyword,location,text,target
+1,fire,"New York",Forest fire near my house right now,1
+2,,,Just watched a great movie tonight,0
+3,flood,,Evacuation order issued for the northern district,1
+4,,"Los Angeles",This concert was fire,0
+5,earthquake,"Tokyo",Earthquake felt across the city this morning,1
+6,disaster,,This movie was a complete disaster,0
+7,fire,,Forest fire near my house right now,0
+8,storm,"Miami",Storm warning issued for coastal areas,1
+9,,,Having a beautiful day at the beach,0
+10,crash,"Chicago",Car crash on the highway causes delays,1

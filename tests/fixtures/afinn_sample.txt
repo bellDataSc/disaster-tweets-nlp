@@ -1,0 +1,5 @@
+abandon	-2
+abandoned	-2
+abduction	-2
+abhor	-3
+zealous	2

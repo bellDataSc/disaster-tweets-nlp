@@ -1,0 +1,8 @@
+; Positive words sample fixture
+; used for testing header skipping
+
+abound
+abounds
+abundance
+happy
+love
